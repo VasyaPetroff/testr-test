@@ -16,15 +16,15 @@ app.use(express.json());
 
 // GET endpoint
 app.get('/api/data', function (req, res) {
-   console.log('GET::/api/data');
-   console.log(req.query);
+   // console.log('GET::/api/data');
+   // console.log(req.query);
    res.end(JSON.stringify(dataToSend));
 });
 
 // POST endpoint
 app.post('/api/data', function (req, res) {
-   console.log('POST::/api/data');
-   console.log(req.body);
+   // console.log('POST::/api/data');
+   // console.log(req.body);
    res.end('POST::/api/data');
 })
 
