@@ -1,16 +1,16 @@
 ## Preamble
 
-It's simple realization based on given design. It took near 8 hours (not up to 3 hours as was mentioned in assignment).
+This is simple realization based on given design. It took near 8 hours (not 3 hours ore less as was mentioned in assignment).
 So I simplified couple of things.
 
 ## Thoughts about what was done
 
-Because it's just an imitation of real project everything was done quick enough. I used plain CSS to do markup but in
+Because of it's just an imitation of real project everything was done simple as possible. I used plain CSS to do markup but in
 real life it's much better to use CSS / HTML framework with preprocessor.
 
 Also I didn't use full-fledged routing. I did just some kind of it.
 
-In production and generally for the real project I would use totally custom handmade webpack configuration. Because it's give better
+In production and generally for the real project I would use totally custom webpack configuration. Because it's give better
 control over bundler and deployment process.
 
 
@@ -20,9 +20,9 @@ Before to start you need install nodejs
 
 [https://github.com/nodesource/distributions/blob/master/README.md#debinstall](https://github.com/nodesource/distributions/blob/master/README.md#debinstall)
 
-Download project from to any folder
+Download project from [github](https://github.com/VasyaPetroff/testr-test) to any folder.
 
-To deploy project, run (from the project directory -- where package.json is located):
+To deploy project, run (project directory it's directory with package.json):
 
 ### `npm i`
 
