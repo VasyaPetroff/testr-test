@@ -50,8 +50,8 @@ class App extends React.Component {
         const ActiveComponents = AppComponents[active];
 
         return (
-            <div className="pageArea">
-                <div className="navAreaTop">
+            <>
+                <div className="headerArea">
                     <div>
                         <img src={appLogo} alt="" />
                     </div>
@@ -59,7 +59,7 @@ class App extends React.Component {
                         <button className="solidButton blueButton">Premium</button>
                     </div>
                 </div>
-                <div className="navAreaLeft">
+                <div className="bodyArea">
                     <div>
                         <NavMenu
                             active={active}
@@ -74,7 +74,8 @@ class App extends React.Component {
                         </div>
                     </div>
                 </div>
-            </div>
+                <div className="footerArea"><div></div><div></div></div>
+            </>
         );
     }
 
