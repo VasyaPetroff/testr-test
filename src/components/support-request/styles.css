@@ -1,0 +1,26 @@
+.supportRequestArea {
+    background-color: #fff;
+    padding: 0 50px;
+}
+
+.supportRequesTable {
+    width: 100%;
+}
+
+.supportRequesTable th {
+    font-size: .7rem;
+    font-weight: normal;
+    color: #b4bac6;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.supportRequesTable th,
+.supportRequesTable td {
+    padding: 0 0 2rem 0;
+}
+
+.supportRequesTable th:last-child,
+.supportRequesTable td:last-child {
+    text-align: center;
+}

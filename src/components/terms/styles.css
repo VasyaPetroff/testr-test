@@ -1,0 +1,25 @@
+.termsArea {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.terms {
+    font-size: .75rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.terms > div {
+    margin-bottom: 20px;
+}
+
+.terms > div:first-child {
+    text-transform: uppercase;
+    color: #999;
+    margin-right: 50px;
+}
+
+.terms > div:last-child {
+    color: #000;
+}

@@ -1,0 +1,28 @@
+.graph {
+    display: flex;
+    align-items: center;
+}
+
+.graph > div:first-child {
+    margin-right: 60px;
+}
+
+.graphTitle {
+    font-size: 15px;
+    color: #354052;
+    margin-bottom: 34px;
+}
+
+.graphDigits {
+    font-size: 27px;
+    color: #37394c;
+}
+
+.graphDigitsLine {
+    display: flex;
+    align-items: center;
+}
+
+.graphDigitsLine > div:first-child {
+    margin-right: 16px;
+}

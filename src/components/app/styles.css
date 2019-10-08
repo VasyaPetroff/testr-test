@@ -1,0 +1,10 @@
+.contentArea {
+    background-color: #fafbfc;
+    padding: 0 50px;
+}
+
+.contentAreaWithBorder {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border: 1px solid #ebedf8;
+}
